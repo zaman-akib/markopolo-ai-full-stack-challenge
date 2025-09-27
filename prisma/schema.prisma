@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model DataSource {
+  id        String   @id @default(cuid())
+  name      String   // 'shopify', 'facebook_pixel', 'google_ads'
+  type      String
+  connected Boolean  @default(false)
+  config    Json?    // Connection configuration
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("data_sources")
+}
+
+model ChatMessage {
+  id        String   @id @default(cuid())
+  content   String
+  role      String   // 'user' or 'assistant'
+  timestamp DateTime @default(now())
+  campaign  Json?    // Campaign JSON if this is an assistant message with campaign
+
+  @@map("chat_messages")
+}
+
+model CampaignOutput {
+  id        String   @id @default(cuid())
+  messageId String
+  payload   Json     // Generated campaign JSON
+  channels  String[] // Selected channels
+  createdAt DateTime @default(now())
+
+  @@map("campaign_outputs")
+}
