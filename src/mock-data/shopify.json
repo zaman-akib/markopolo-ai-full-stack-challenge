@@ -1,0 +1,210 @@
+{
+  "store_info": {
+    "name": "StyleHub Boutique",
+    "domain": "stylehub.myshopify.com",
+    "country": "United States",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "plan": "Shopify Plus"
+  },
+  "overview": {
+    "customers": 15420,
+    "orders": 3240,
+    "revenue": 425600,
+    "sessions": 45230,
+    "conversion_rate": 7.16,
+    "average_order_value": 131.42,
+    "returning_customer_rate": 45.2
+  },
+  "products": {
+    "total_products": 234,
+    "published_products": 198,
+    "out_of_stock": 12,
+    "low_stock_items": 8,
+    "top_products": [
+      {
+        "id": "prod_001",
+        "name": "Premium Winter Coat",
+        "sales": 234,
+        "revenue": 28080,
+        "inventory": 45,
+        "price": 120.00
+      },
+      {
+        "id": "prod_002",
+        "name": "Athletic Running Shoes",
+        "sales": 189,
+        "revenue": 20412,
+        "inventory": 23,
+        "price": 108.00
+      },
+      {
+        "id": "prod_003",
+        "name": "Ceramic Coffee Mug Set",
+        "sales": 156,
+        "revenue": 4680,
+        "inventory": 78,
+        "price": 30.00
+      },
+      {
+        "id": "prod_004",
+        "name": "Wireless Bluetooth Headphones",
+        "sales": 143,
+        "revenue": 21450,
+        "inventory": 34,
+        "price": 150.00
+      },
+      {
+        "id": "prod_005",
+        "name": "Organic Skincare Bundle",
+        "sales": 128,
+        "revenue": 8960,
+        "inventory": 56,
+        "price": 70.00
+      }
+    ],
+    "categories": [
+      { "name": "Clothing", "products": 89, "revenue": 156780 },
+      { "name": "Accessories", "products": 67, "revenue": 89340 },
+      { "name": "Electronics", "products": 45, "revenue": 98760 },
+      { "name": "Home & Garden", "products": 33, "revenue": 80720 }
+    ]
+  },
+  "customers": {
+    "segments": [
+      {
+        "segment": "VIP Customers",
+        "count": 890,
+        "total_spent": 198450,
+        "average_order_value": 223.15,
+        "criteria": "Lifetime value > $500"
+      },
+      {
+        "segment": "Frequent Buyers",
+        "count": 2340,
+        "total_spent": 145670,
+        "average_order_value": 62.25,
+        "criteria": "3+ orders in last 6 months"
+      },
+      {
+        "segment": "New Customers",
+        "count": 1240,
+        "total_spent": 45230,
+        "average_order_value": 36.48,
+        "criteria": "First purchase in last 30 days"
+      },
+      {
+        "segment": "At Risk",
+        "count": 567,
+        "total_spent": 23450,
+        "average_order_value": 41.36,
+        "criteria": "No purchase in 6+ months"
+      }
+    ],
+    "demographics": {
+      "age_groups": {
+        "18-24": 18.5,
+        "25-34": 35.2,
+        "35-44": 28.3,
+        "45-54": 12.7,
+        "55+": 5.3
+      },
+      "gender": {
+        "female": 62.4,
+        "male": 35.8,
+        "other": 1.8
+      },
+      "locations": [
+        { "country": "United States", "percentage": 78.5 },
+        { "country": "Canada", "percentage": 12.3 },
+        { "country": "United Kingdom", "percentage": 5.7 },
+        { "country": "Australia", "percentage": 2.1 },
+        { "country": "Other", "percentage": 1.4 }
+      ]
+    }
+  },
+  "orders": {
+    "recent_orders": [
+      {
+        "id": "ORD-001234",
+        "customer": "Sarah Johnson",
+        "total": 156.78,
+        "status": "fulfilled",
+        "date": "2024-01-15T10:30:00Z",
+        "items": 3
+      },
+      {
+        "id": "ORD-001235",
+        "customer": "Michael Chen",
+        "total": 89.99,
+        "status": "processing",
+        "date": "2024-01-15T09:15:00Z",
+        "items": 1
+      },
+      {
+        "id": "ORD-001236",
+        "customer": "Emily Davis",
+        "total": 234.50,
+        "status": "shipped",
+        "date": "2024-01-14T16:45:00Z",
+        "items": 4
+      }
+    ],
+    "order_trends": {
+      "daily_orders": [
+        { "date": "2024-01-15", "orders": 45, "revenue": 5923.45 },
+        { "date": "2024-01-14", "orders": 52, "revenue": 6834.21 },
+        { "date": "2024-01-13", "orders": 38, "revenue": 4992.18 },
+        { "date": "2024-01-12", "orders": 41, "revenue": 5378.90 },
+        { "date": "2024-01-11", "orders": 56, "revenue": 7245.67 }
+      ],
+      "peak_hours": [
+        { "hour": "14:00", "orders": 234 },
+        { "hour": "15:00", "orders": 198 },
+        { "hour": "20:00", "orders": 187 },
+        { "hour": "21:00", "orders": 165 }
+      ]
+    }
+  },
+  "marketing": {
+    "channels": [
+      { "channel": "Organic Search", "revenue": 156780, "percentage": 36.8 },
+      { "channel": "Social Media", "revenue": 89340, "percentage": 21.0 },
+      { "channel": "Email Marketing", "revenue": 67890, "percentage": 15.9 },
+      { "channel": "Paid Ads", "revenue": 56780, "percentage": 13.3 },
+      { "channel": "Direct", "revenue": 54810, "percentage": 12.9 }
+    ],
+    "campaigns": [
+      {
+        "name": "Winter Sale 2024",
+        "status": "active",
+        "revenue": 34560,
+        "orders": 287,
+        "conversion_rate": 8.9
+      },
+      {
+        "name": "New Year Collection",
+        "status": "completed",
+        "revenue": 28900,
+        "orders": 234,
+        "conversion_rate": 7.2
+      }
+    ]
+  },
+  "analytics": {
+    "website_traffic": {
+      "sessions": 45230,
+      "unique_visitors": 32145,
+      "page_views": 156789,
+      "bounce_rate": 42.3,
+      "average_session_duration": "3:45"
+    },
+    "conversion_funnel": {
+      "sessions": 45230,
+      "product_views": 28945,
+      "add_to_cart": 8967,
+      "checkout_initiated": 3892,
+      "orders_completed": 3240
+    }
+  }
+}

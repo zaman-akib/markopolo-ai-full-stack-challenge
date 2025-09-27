@@ -1,0 +1,287 @@
+{
+  "pixel_info": {
+    "pixel_id": "1234567890123456",
+    "name": "StyleHub Main Pixel",
+    "status": "active",
+    "creation_date": "2023-06-15T10:30:00Z",
+    "last_activity": "2024-01-15T14:22:00Z"
+  },
+  "overview": {
+    "page_views": 45230,
+    "unique_visitors": 12400,
+    "sessions": 18967,
+    "events": 89567,
+    "conversions": 342,
+    "conversion_rate": 2.76,
+    "cost_per_conversion": 15.23
+  },
+  "events": {
+    "standard_events": [
+      {
+        "event": "ViewContent",
+        "count": 28945,
+        "unique_users": 8934,
+        "conversion_value": 45678.90
+      },
+      {
+        "event": "AddToCart",
+        "count": 8967,
+        "unique_users": 4523,
+        "conversion_value": 89340.25
+      },
+      {
+        "event": "InitiateCheckout",
+        "count": 3892,
+        "unique_users": 2834,
+        "conversion_value": 156780.50
+      },
+      {
+        "event": "Purchase",
+        "count": 2340,
+        "unique_users": 1987,
+        "conversion_value": 425600.00
+      },
+      {
+        "event": "AddToWishlist",
+        "count": 1567,
+        "unique_users": 1234,
+        "conversion_value": 12450.75
+      },
+      {
+        "event": "Search",
+        "count": 5679,
+        "unique_users": 3456,
+        "conversion_value": 8900.30
+      }
+    ],
+    "custom_events": [
+      {
+        "event": "Newsletter_Signup",
+        "count": 2345,
+        "unique_users": 2234,
+        "conversion_value": 4500.00
+      },
+      {
+        "event": "Product_Review",
+        "count": 567,
+        "unique_users": 489,
+        "conversion_value": 1234.50
+      },
+      {
+        "event": "Live_Chat_Started",
+        "count": 890,
+        "unique_users": 743,
+        "conversion_value": 2890.75
+      }
+    ]
+  },
+  "traffic_sources": {
+    "channels": [
+      {
+        "source": "facebook.com",
+        "visitors": 4567,
+        "sessions": 6789,
+        "conversions": 123,
+        "revenue": 45670.25
+      },
+      {
+        "source": "instagram.com",
+        "visitors": 3456,
+        "sessions": 4890,
+        "conversions": 89,
+        "revenue": 32450.75
+      },
+      {
+        "source": "google.com",
+        "visitors": 2890,
+        "sessions": 3567,
+        "conversions": 78,
+        "revenue": 28900.50
+      },
+      {
+        "source": "direct",
+        "visitors": 1234,
+        "sessions": 1567,
+        "conversions": 45,
+        "revenue": 15670.25
+      },
+      {
+        "source": "email",
+        "visitors": 890,
+        "sessions": 1234,
+        "conversions": 34,
+        "revenue": 12450.00
+      }
+    ]
+  },
+  "pages": {
+    "top_pages": [
+      {
+        "url": "/",
+        "page_title": "Homepage",
+        "views": 8920,
+        "unique_visitors": 6789,
+        "bounce_rate": 35.6,
+        "avg_time_on_page": "2:45"
+      },
+      {
+        "url": "/products",
+        "page_title": "All Products",
+        "views": 6754,
+        "unique_visitors": 4532,
+        "bounce_rate": 42.3,
+        "avg_time_on_page": "3:12"
+      },
+      {
+        "url": "/checkout",
+        "page_title": "Checkout",
+        "views": 3450,
+        "unique_visitors": 2987,
+        "bounce_rate": 15.8,
+        "avg_time_on_page": "4:30"
+      },
+      {
+        "url": "/cart",
+        "page_title": "Shopping Cart",
+        "views": 2340,
+        "unique_visitors": 1876,
+        "bounce_rate": 28.9,
+        "avg_time_on_page": "1:56"
+      },
+      {
+        "url": "/account/login",
+        "page_title": "Customer Login",
+        "views": 1890,
+        "unique_visitors": 1567,
+        "bounce_rate": 45.2,
+        "avg_time_on_page": "1:23"
+      }
+    ]
+  },
+  "audience": {
+    "demographics": {
+      "age_groups": {
+        "18-24": 20.5,
+        "25-34": 35.2,
+        "35-44": 28.3,
+        "45-54": 12.1,
+        "55-64": 3.2,
+        "65+": 0.7
+      },
+      "gender": {
+        "female": 64.8,
+        "male": 34.2,
+        "unknown": 1.0
+      }
+    },
+    "interests": [
+      { "interest": "Fashion & Beauty", "affinity": 95.2 },
+      { "interest": "Online Shopping", "affinity": 89.7 },
+      { "interest": "Technology", "affinity": 67.3 },
+      { "interest": "Fitness & Wellness", "affinity": 54.8 },
+      { "interest": "Travel", "affinity": 42.1 },
+      { "interest": "Food & Dining", "affinity": 38.9 }
+    ],
+    "behaviors": [
+      { "behavior": "Frequent Online Shoppers", "percentage": 78.5 },
+      { "behavior": "Mobile Device Users", "percentage": 72.3 },
+      { "behavior": "Social Media Users", "percentage": 89.1 },
+      { "behavior": "Brand Loyalists", "percentage": 45.7 }
+    ],
+    "devices": {
+      "mobile": 68.4,
+      "desktop": 25.8,
+      "tablet": 5.8
+    },
+    "locations": [
+      { "country": "United States", "percentage": 72.5, "users": 8988 },
+      { "country": "Canada", "percentage": 15.2, "users": 1885 },
+      { "country": "United Kingdom", "percentage": 6.8, "users": 843 },
+      { "country": "Australia", "percentage": 3.1, "users": 384 },
+      { "country": "Germany", "percentage": 1.4, "users": 174 },
+      { "country": "France", "percentage": 1.0, "users": 124 }
+    ]
+  },
+  "conversion_funnel": {
+    "stages": [
+      {
+        "stage": "Page View",
+        "users": 12400,
+        "percentage": 100,
+        "drop_off": 0
+      },
+      {
+        "stage": "Product View",
+        "users": 8934,
+        "percentage": 72.0,
+        "drop_off": 28.0
+      },
+      {
+        "stage": "Add to Cart",
+        "users": 4523,
+        "percentage": 36.5,
+        "drop_off": 35.5
+      },
+      {
+        "stage": "Initiate Checkout",
+        "users": 2834,
+        "percentage": 22.9,
+        "drop_off": 13.6
+      },
+      {
+        "stage": "Purchase",
+        "users": 1987,
+        "percentage": 16.0,
+        "drop_off": 6.9
+      }
+    ]
+  },
+  "campaign_performance": {
+    "active_campaigns": [
+      {
+        "campaign_name": "Winter Collection Launch",
+        "impressions": 234567,
+        "clicks": 8945,
+        "ctr": 3.81,
+        "conversions": 189,
+        "conversion_rate": 2.11,
+        "spend": 4567.89,
+        "revenue": 23456.78,
+        "roas": 5.14
+      },
+      {
+        "campaign_name": "Retargeting - Cart Abandoners",
+        "impressions": 89456,
+        "clicks": 3456,
+        "ctr": 3.87,
+        "conversions": 123,
+        "conversion_rate": 3.56,
+        "spend": 2345.67,
+        "revenue": 15678.90,
+        "roas": 6.68
+      },
+      {
+        "campaign_name": "Lookalike Audience",
+        "impressions": 156789,
+        "clicks": 5678,
+        "ctr": 3.62,
+        "conversions": 98,
+        "conversion_rate": 1.73,
+        "spend": 3456.78,
+        "revenue": 12345.67,
+        "roas": 3.57
+      }
+    ]
+  },
+  "real_time": {
+    "active_users": 234,
+    "events_last_hour": 1567,
+    "conversions_today": 45,
+    "revenue_today": 5678.90,
+    "top_events_now": [
+      { "event": "ViewContent", "count": 89 },
+      { "event": "AddToCart", "count": 23 },
+      { "event": "Purchase", "count": 12 }
+    ]
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "account_info": {
+    "customer_id": "123-456-7890",
+    "account_name": "StyleHub Marketing",
+    "currency": "USD",
+    "timezone": "America/New_York",
+    "account_status": "ENABLED",
+    "manager_account": false
+  },
+  "overview": {
+    "campaigns": 12,
+    "ad_groups": 45,
+    "keywords": 1234,
+    "ads": 89,
+    "impressions": 2345670,
+    "clicks": 43210,
+    "ctr": 1.84,
+    "average_cpc": 2.45,
+    "cost": 105840.50,
+    "conversions": 1567,
+    "conversion_rate": 3.63,
+    "cost_per_conversion": 67.54,
+    "conversion_value": 425600.00,
+    "roas": 4.02
+  },
+  "campaigns": [
+    {
+      "campaign_id": "12345678901",
+      "campaign_name": "Search - Brand Terms",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "budget": 5000.00,
+      "budget_type": "DAILY",
+      "bidding_strategy": "TARGET_CPA",
+      "target_cpa": 45.00,
+      "impressions": 456789,
+      "clicks": 12345,
+      "ctr": 2.70,
+      "average_cpc": 3.25,
+      "cost": 40121.25,
+      "conversions": 456,
+      "conversion_rate": 3.69,
+      "cost_per_conversion": 88.02,
+      "conversion_value": 125670.00,
+      "roas": 3.13
+    },
+    {
+      "campaign_id": "12345678902",
+      "campaign_name": "Search - Generic Terms",
+      "campaign_type": "SEARCH",
+      "status": "ENABLED",
+      "budget": 3000.00,
+      "budget_type": "DAILY",
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "impressions": 789456,
+      "clicks": 15678,
+      "ctr": 1.99,
+      "average_cpc": 2.15,
+      "cost": 33708.70,
+      "conversions": 389,
+      "conversion_rate": 2.48,
+      "cost_per_conversion": 86.65,
+      "conversion_value": 98450.00,
+      "roas": 2.92
+    },
+    {
+      "campaign_id": "12345678903",
+      "campaign_name": "Display - Remarketing",
+      "campaign_type": "DISPLAY",
+      "status": "ENABLED",
+      "budget": 1500.00,
+      "budget_type": "DAILY",
+      "bidding_strategy": "TARGET_ROAS",
+      "target_roas": 400,
+      "impressions": 567890,
+      "clicks": 8901,
+      "ctr": 1.57,
+      "average_cpc": 1.85,
+      "cost": 16467.85,
+      "conversions": 234,
+      "conversion_rate": 2.63,
+      "cost_per_conversion": 70.38,
+      "conversion_value": 67890.00,
+      "roas": 4.12
+    },
+    {
+      "campaign_id": "12345678904",
+      "campaign_name": "Shopping - Product Ads",
+      "campaign_type": "SHOPPING",
+      "status": "ENABLED",
+      "budget": 2500.00,
+      "budget_type": "DAILY",
+      "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+      "impressions": 345678,
+      "clicks": 6789,
+      "ctr": 1.96,
+      "average_cpc": 2.28,
+      "cost": 15479.52,
+      "conversions": 298,
+      "conversion_rate": 4.39,
+      "cost_per_conversion": 51.94,
+      "conversion_value": 89340.00,
+      "roas": 5.77
+    },
+    {
+      "campaign_id": "12345678905",
+      "campaign_name": "YouTube - Video Ads",
+      "campaign_type": "VIDEO",
+      "status": "ENABLED",
+      "budget": 1000.00,
+      "budget_type": "DAILY",
+      "bidding_strategy": "CPV",
+      "target_cpv": 0.15,
+      "impressions": 234567,
+      "views": 45678,
+      "view_rate": 19.47,
+      "average_cpv": 0.12,
+      "cost": 5481.36,
+      "conversions": 89,
+      "conversion_rate": 0.19,
+      "cost_per_conversion": 61.59,
+      "conversion_value": 23450.00,
+      "roas": 4.28
+    }
+  ],
+  "keywords": {
+    "top_performing": [
+      {
+        "keyword": "winter coats women",
+        "match_type": "PHRASE",
+        "impressions": 45678,
+        "clicks": 2345,
+        "ctr": 5.13,
+        "average_cpc": 3.45,
+        "cost": 8090.25,
+        "conversions": 123,
+        "conversion_rate": 5.24,
+        "cost_per_conversion": 65.78,
+        "quality_score": 8
+      },
+      {
+        "keyword": "running shoes sale",
+        "match_type": "EXACT",
+        "impressions": 34567,
+        "clicks": 1890,
+        "ctr": 5.47,
+        "average_cpc": 2.89,
+        "cost": 5462.10,
+        "conversions": 98,
+        "conversion_rate": 5.19,
+        "cost_per_conversion": 55.73,
+        "quality_score": 9
+      },
+      {
+        "keyword": "premium coffee mugs",
+        "match_type": "BROAD",
+        "impressions": 23456,
+        "clicks": 987,
+        "ctr": 4.21,
+        "average_cpc": 1.75,
+        "cost": 1727.25,
+        "conversions": 67,
+        "conversion_rate": 6.79,
+        "cost_per_conversion": 25.78,
+        "quality_score": 7
+      },
+      {
+        "keyword": "wireless headphones bluetooth",
+        "match_type": "PHRASE",
+        "impressions": 56789,
+        "clicks": 2456,
+        "ctr": 4.33,
+        "average_cpc": 4.25,
+        "cost": 10438.00,
+        "conversions": 145,
+        "conversion_rate": 5.90,
+        "cost_per_conversion": 71.99,
+        "quality_score": 8
+      }
+    ],
+    "search_terms": [
+      {
+        "search_term": "best winter coats 2024",
+        "impressions": 12345,
+        "clicks": 567,
+        "conversions": 34,
+        "cost": 1965.15
+      },
+      {
+        "search_term": "cheap running shoes online",
+        "impressions": 9876,
+        "clicks": 432,
+        "conversions": 23,
+        "cost": 1248.48
+      },
+      {
+        "search_term": "ceramic coffee mug set",
+        "impressions": 7654,
+        "clicks": 298,
+        "conversions": 19,
+        "cost": 521.50
+      }
+    ]
+  },
+  "demographics": {
+    "age_groups": [
+      { "age_range": "18-24", "impressions": 234567, "clicks": 4321, "conversions": 89, "cost": 10584.50 },
+      { "age_range": "25-34", "impressions": 567890, "clicks": 12345, "conversions": 234, "cost": 30256.25 },
+      { "age_range": "35-44", "impressions": 456789, "clicks": 9876, "conversions": 198, "cost": 24190.00 },
+      { "age_range": "45-54", "impressions": 345678, "clicks": 6789, "conversions": 123, "cost": 16622.75 },
+      { "age_range": "55-64", "impressions": 234567, "clicks": 3456, "conversions": 67, "cost": 8456.00 },
+      { "age_range": "65+", "impressions": 123456, "clicks": 1890, "conversions": 34, "cost": 4621.50 }
+    ],
+    "gender": [
+      { "gender": "FEMALE", "impressions": 1345678, "clicks": 23456, "conversions": 456, "cost": 57458.75 },
+      { "gender": "MALE", "impressions": 987654, "clicks": 15678, "conversions": 289, "cost": 38462.25 },
+      { "gender": "UNDETERMINED", "impressions": 234567, "clicks": 4321, "conversions": 78, "cost": 10584.50 }
+    ]
+  },
+  "geographic_performance": [
+    {
+      "location": "United States",
+      "impressions": 1876543,
+      "clicks": 34567,
+      "conversions": 678,
+      "cost": 84567.25,
+      "average_cpc": 2.45
+    },
+    {
+      "location": "New York",
+      "impressions": 234567,
+      "clicks": 5678,
+      "conversions": 123,
+      "cost": 13901.50,
+      "average_cpc": 2.45
+    },
+    {
+      "location": "California",
+      "impressions": 345678,
+      "clicks": 7890,
+      "conversions": 156,
+      "cost": 19330.50,
+      "average_cpc": 2.45
+    },
+    {
+      "location": "Texas",
+      "impressions": 234567,
+      "clicks": 4567,
+      "conversions": 89,
+      "cost": 11189.15,
+      "average_cpc": 2.45
+    }
+  ],
+  "ad_performance": {
+    "text_ads": [
+      {
+        "headline1": "Premium Winter Coats Sale",
+        "headline2": "Up to 50% Off Today",
+        "description": "Shop our collection of premium winter coats. Free shipping on orders over $100.",
+        "impressions": 123456,
+        "clicks": 2345,
+        "ctr": 1.90,
+        "conversions": 67,
+        "conversion_rate": 2.86
+      },
+      {
+        "headline1": "Best Running Shoes 2024",
+        "headline2": "Free Returns & Fast Shipping",
+        "description": "Discover the latest athletic footwear. Top brands, best prices guaranteed.",
+        "impressions": 98765,
+        "clicks": 1890,
+        "ctr": 1.91,
+        "conversions": 45,
+        "conversion_rate": 2.38
+      }
+    ],
+    "responsive_search_ads": [
+      {
+        "headlines": [
+          "Premium Quality Products",
+          "Fast Free Shipping",
+          "Best Prices Guaranteed"
+        ],
+        "descriptions": [
+          "Shop our curated collection of premium products with unbeatable prices.",
+          "Free shipping on all orders. Easy returns within 30 days."
+        ],
+        "impressions": 345678,
+        "clicks": 6789,
+        "ctr": 1.96,
+        "conversions": 134,
+        "conversion_rate": 1.97
+      }
+    ]
+  },
+  "device_performance": [
+    {
+      "device": "MOBILE",
+      "impressions": 1234567,
+      "clicks": 23456,
+      "ctr": 1.90,
+      "conversions": 456,
+      "conversion_rate": 1.94,
+      "cost": 57458.40,
+      "average_cpc": 2.45
+    },
+    {
+      "device": "DESKTOP",
+      "impressions": 987654,
+      "clicks": 15678,
+      "ctr": 1.59,
+      "conversions": 389,
+      "conversion_rate": 2.48,
+      "cost": 38410.10,
+      "average_cpc": 2.45
+    },
+    {
+      "device": "TABLET",
+      "impressions": 234567,
+      "clicks": 3456,
+      "ctr": 1.47,
+      "conversions": 67,
+      "conversion_rate": 1.94,
+      "cost": 8467.20,
+      "average_cpc": 2.45
+    }
+  ],
+  "time_performance": {
+    "hour_of_day": [
+      { "hour": "00:00", "impressions": 45678, "clicks": 567, "conversions": 12 },
+      { "hour": "06:00", "impressions": 78901, "clicks": 890, "conversions": 18 },
+      { "hour": "09:00", "impressions": 123456, "clicks": 1567, "conversions": 34 },
+      { "hour": "12:00", "impressions": 156789, "clicks": 2345, "conversions": 56 },
+      { "hour": "15:00", "impressions": 189012, "clicks": 2890, "conversions": 67 },
+      { "hour": "18:00", "impressions": 167890, "clicks": 2456, "conversions": 49 },
+      { "hour": "21:00", "impressions": 134567, "clicks": 1890, "conversions": 38 }
+    ],
+    "day_of_week": [
+      { "day": "Monday", "impressions": 345678, "clicks": 5678, "conversions": 123 },
+      { "day": "Tuesday", "impressions": 367890, "clicks": 6234, "conversions": 134 },
+      { "day": "Wednesday", "impressions": 389012, "clicks": 6789, "conversions": 145 },
+      { "day": "Thursday", "impressions": 378901, "clicks": 6456, "conversions": 139 },
+      { "day": "Friday", "impressions": 356789, "clicks": 5890, "conversions": 127 },
+      { "day": "Saturday", "impressions": 234567, "clicks": 4123, "conversions": 89 },
+      { "day": "Sunday", "impressions": 289012, "clicks": 4567, "conversions": 98 }
+    ]
+  },
+  "budget_performance": {
+    "daily_spend": [
+      { "date": "2024-01-15", "spend": 3456.78, "impressions": 78901, "clicks": 1234, "conversions": 34 },
+      { "date": "2024-01-14", "spend": 4123.45, "impressions": 89012, "clicks": 1456, "conversions": 42 },
+      { "date": "2024-01-13", "spend": 3789.12, "impressions": 67890, "clicks": 1123, "conversions": 28 },
+      { "date": "2024-01-12", "spend": 4567.89, "impressions": 91234, "clicks": 1567, "conversions": 45 },
+      { "date": "2024-01-11", "spend": 3234.56, "impressions": 56789, "clicks": 987, "conversions": 23 }
+    ],
+    "budget_utilization": {
+      "allocated_budget": 15000.00,
+      "spent_budget": 12789.45,
+      "utilization_percentage": 85.3,
+      "remaining_budget": 2210.55
+    }
+  },
+  "auction_insights": {
+    "competitors": [
+      {
+        "domain": "competitor1.com",
+        "impression_share": 25.4,
+        "overlap_rate": 67.8,
+        "outranking_share": 45.2,
+        "top_of_page_rate": 34.6
+      },
+      {
+        "domain": "competitor2.com",
+        "impression_share": 18.7,
+        "overlap_rate": 52.3,
+        "outranking_share": 38.9,
+        "top_of_page_rate": 28.1
+      },
+      {
+        "domain": "competitor3.com",
+        "impression_share": 15.2,
+        "overlap_rate": 43.7,
+        "outranking_share": 31.5,
+        "top_of_page_rate": 22.8
+      }
+    ]
+  }
+}
